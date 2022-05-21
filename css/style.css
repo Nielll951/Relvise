@@ -140,6 +140,8 @@ body {
 }
 .page__advantages {
 }
+.page__practice {
+}
 /* ------HEADER-BLOCK---------------------------------------------------------*/
 .header-block {
 	text-align: center;
@@ -411,5 +413,49 @@ body {
 	font-size: 16px;
 	line-height: 150%;
 	letter-spacing: 0.1px;
+}
+/* ---------------------------------------------------------------*/
+.practice {
+	padding: 12px 0 80px 0;
+}
+.practice__container {
+}
+.practice__header {
+}
+.practice__body {
+	margin: 0 -15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.practice__column {
+	padding: 0 15px;
+	flex: 0 1 25%;
+}
+.practice__item {	
+}
+.item-practice {
+	background-color: #fff;
+}
+.item-practice__content {
+	padding: 30px;
+}
+.item-practice__link {
+	color: inherit;
+	display: inline-block;
+}
+.item-practice__link:not(:last-child) {
+	margin-bottom: 15px;
+}
+.item-practice__title {
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 700px;
+}
+.item-practice__text {
+	color: #737373;
+	line-height: 142%;
+}
+.item-practice__image {
 }
 /* ------FOOTER---------------------------------------------------------*/
