@@ -543,7 +543,6 @@ body {
 	}
 }
 .whoweare__top {
-	text-align: center;
 	margin-bottom: 100px;
 }
 @media (max-width: 950px) {
@@ -560,7 +559,7 @@ body {
 	line-height: 142%;
 	letter-spacing: 0.2px;
 }
-.whoweare__text:not(:last-child) {
+.whoweare__title:not(:last-child) {
 	margin-bottom: 10px;
 }
 .whoweare__text {
